@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 Run the script from the command line, providing the necessary arguments:
 ```bash
-python qbt_file_checker.py --folder_path "path/to/directory"
+python qbittorrent_file_checker.py --folder_path "path/to/directory"
 ```
 
 ### Arguments  
