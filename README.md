@@ -1,4 +1,3 @@
-
 # qBittorrent File Checker
 
 This script checks a specified directory for files that are not part of any active torrents in qBittorrent and optionally deletes or moves them to the recycle bin.
@@ -21,6 +20,7 @@ This script checks a specified directory for files that are not part of any acti
 ```bash
 pip install -r requirements.txt
 ```
+
 ## Usage
 
 Run the script from the command line, providing the necessary arguments:
@@ -29,7 +29,7 @@ python qbt_file_checker.py --folder_path "path/to/directory"
 ```
 
 ### Arguments  
-```
+```bash
 --folder_path: Path to the folder containing files to check.
 --dry_run: Perform a dry run without deleting files.
 --recycle: Move files to recycle bin instead of permanent deletion.
