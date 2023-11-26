@@ -1,0 +1,2 @@
+qbittorrent-api
+send2trash
